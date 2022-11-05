@@ -334,11 +334,6 @@
   flex-direction: column;
 }
 
-.column-links {
-  display: flex;
-  flex-direction: column;
-}
-
 .social__icons {
   display: flex;
   justify-content: center;
@@ -369,9 +364,11 @@
 }
 
 .column-links {
- margin: 20px 0 18px 0;
- line-height: 30px;
- font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 18px 0;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .column-links_link {
