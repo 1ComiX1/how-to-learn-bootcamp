@@ -347,7 +347,7 @@
   line-height: 30px;
 }
 
-.social__icons a {
+.social__icons_link {
   text-decoration: none;
   color: white;
   display: flex;
@@ -374,7 +374,7 @@
  font-size: 18px;
 }
 
-.column-links a {
+.column-links_link {
   text-decoration: none;
   color: white;
 }
