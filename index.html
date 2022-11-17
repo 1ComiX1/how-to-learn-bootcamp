@@ -10,28 +10,29 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="logo header__logo" src="./images/logo_place_header.svg" alt="Яндекс Практикум">
-      <div class="header__title">
+      <img class="logo header__logo logo_place_header" src="./images/logo_place_header.svg" alt="Яндекс Практикум">
+      <h1 class="header__title">
         Научиться
         учиться
-      </div>
-      <div class="header__subtitle">
+      </h1>
+      <p class="header__subtitle">
         Какие современные и эффективные подходы
         к обучению вы можете использовать в своей
         жизни?
-        <a href="#">Узнать&#8594</a>
-      </div>
-      <img class="main-illustration" src="./images/header-image.png" alt="Опять двойка (картина)">
-      <div class="header__square-pic">
+        <a class="header__link" href="#" target="_blank">Узнать&#8594;</a>
+      </p>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Опять двойка (картина)">
+      <div class="rotation">
+        <div class="header__square-pic rotating-el">
+        </div>
       </div>
     </header>
+    <main>
     <section class="description">
       <div class="two-colums">
-        <div class="two-colums__brief">
-          <p>
-            Главные проблемы в обучении
-          </p>
-        </div>
+        <h2 class="two-colums__brief">
+          Главные проблемы в обучении
+        </h2>
         <div class="two-colums__main-text">
           <div class="two-colums__paragraph">
             <p>
@@ -55,127 +56,87 @@
       </div>
     </section>
     <section class="digits">
-      <div class="section__title">
-        <p>
-          Цифры и факты
-        </p>
-      </div>
-      <div class="section__subtitle">
-        <p>
-          Про учёбу и мозг
-        </p>
-      </div>
+      <h2 class="title">
+        Цифры и факты
+      </h2>
+      <p class="subtitle">
+        Про учёбу и мозг
+      </p>
       <div class="table ">
         <div class="table__list table__list_row_first">
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                86 миллиардов
-              </p>
-            </div>
-            <div class="table__text">
-              <p class="table__text_padding_top">
-                Число нейронов в мозге человека
-              </p>
-            </div>
+            <p class="table__heading">
+              86 миллиардов
+            </p>
+            <p class="table__text">
+              Число нейронов в мозге человека
+            </p>
           </div>
           <div class="table__cell">
-            <div class="table__heading ">
-              <p>
-                2.1 миллиарда
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p class="table__text_padding_bottom">
-                Число нуждающихся в
-                повышении квалификации
-              </p>
-              <p>
-                Всемирный Банк, 2017
-              </p>
-            </div>
+            <p class="table__heading">
+              2.1 миллиарда
+            </p>
+            <p class="table__text">
+              Число нуждающихся в
+              повышении квалификации
+            </p>
+            <p>
+              Всемирный Банк, 2017
+            </p>
           </div>
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                1000 терабайт
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p>
-                Объём памяти человека
-              </p>
-            </div>
+            <p class="table__heading">
+              1000 терабайт
+            </p>
+            <p class="table__text">
+              Объём памяти человека
+            </p>
           </div>
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                500 триллионов
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p>
-                Число ответственных за
-                обучение нервных синапсов
-                у взрослого человека
-              </p>
-            </div>
+            <p class="table__heading">
+              500 триллионов
+            </p>
+            <p class="table__text">
+              Число ответственных за обучение нервных синапсов у взрослого человека
+            </p>
           </div>
         </div>
         <div class="table__list table__list_row_second">
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                420 миллионов
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p class="table__text_padding_bottom">
-                Число взрослых людей
-                моложе 25 лет, не имеющих
-                образования для
-                трудоустройства
-              </p>
-              <p>
-                Всемирный Банк, 2017
-              </p>
-            </div>
+            <p class="table__heading">
+              420 миллионов
+            </p>
+            <p class="table__text">
+              Число взрослых людей моложе 25 лет,
+              не имеющих образования для трудоустройства
+            </p>
+            <p>
+              Всемирный Банк, 2017
+            </p>
           </div>
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                17–20 лет
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p>
-                Пик обучаемости
-              </p>
-            </div>
+            <p class="table__heading">
+              17–20 лет
+            </p>
+            <p class="table__text">
+              Пик обучаемости
+            </p>
           </div>
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                1885 год
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p>
-                Открытие кривой забывания
-              </p>
-            </div>
+            <p class="table__heading">
+              1885 год
+            </p>
+            <p class="table__text">
+              Открытие кривой забывания
+            </p>
           </div>
           <div class="table__cell">
-            <div class="table__heading">
-              <p>
-                1889 год
-              </p>
-            </div>
-            <div class="table__text table__text_padding_top" >
-              <p>
-                Открытие условного рефлекса
-              </p>
-            </div>
+            <p class="table__heading">
+              1889 год
+            </p>
+            <p class="table__text">
+              Открытие условного рефлекса
+            </p>
           </div>
         </div>
       </div>
@@ -197,144 +158,100 @@
       </div>
     </section>
     <section class="kaufman kaufman__triangle">
-      <div class="section__title section__title_theme_dark">
-        <h2>
-          Принципы обучения
-        </h2>
-      </div>
-      <div class="section__subtitle section__subtitle_theme_dark">
-        <h3>
-          от Джоша Кауфмана
-        </h3>
-      </div>
+      <h2 class="title section__title_theme_dark">
+        Принципы обучения
+      </h2>
+      <h3 class="subtitle section__subtitle_theme_dark">
+        от Джоша Кауфмана
+      </h3>
       <div class="table table_theme_dark">
         <div class="table__list table__list-dark_row_first">
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
+              <h3 class="table__heading table__heading_theme_dark">
                 1
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__text_padding_top">
+              </h3>
+              <p class="table__text table__text_padding_top table__text_theme_dark">
                 Выберите привлекательный проект.
               </p>
-            </div>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                2
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__text_padding_top">
-                Сосредоточьтесь на каком-то одном навыке.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              2
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Сосредоточьтесь на каком-то одном навыке.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                3
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark">
-              <p class="table__text_padding_top">
-                Определите целевой уровень мастерства.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              3
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Определите целевой уровень мастерства.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                4
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p>
-                Разбейте навык на элементы.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              4
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Разбейте навык на элементы.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                5
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p>
-                Приготовьте всё необходимое для занятий.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              5
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Приготовьте всё необходимое для занятий.
+            </p>
           </div>
         </div>
         <div class="table__list table__list-dark_row_second">
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                6
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p class="table__text_padding_bottom">
-                Устраните препятствия для занятий.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              6
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Устраните препятствия для занятий.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                7
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p>
-                Выделите специальное время для занятий.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              7
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Выделите специальное время для занятий.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                8
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p>
-                Создайте быстрые петли обратной связи.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              8
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Создайте быстрые петли обратной связи.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                9
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p>
-                Занимайтесь по расписанию, короткими
-                интенсивными интервалами.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              9
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Занимайтесь по расписанию, короткими интенсивными интервалами.
+            </p>
           </div>
           <div class="table__cell table__cell_theme_dark">
-            <div class="table__heading table__heading_theme_dark">
-              <p>
-                10
-              </p>
-            </div>
-            <div class="table__text table__text_theme_dark table__text_padding_top" >
-              <p>
-                Уделяйте внимание количеству и скорости.
-              </p>
-            </div>
+            <h3 class="table__heading table__heading_theme_dark">
+              10
+            </h3>
+            <p class="table__text table__text_padding_top table__text_theme_dark">
+              Уделяйте внимание количеству и скорости.
+            </p>
           </div>
         </div>
       </div>
     </section>
+   </main>
     <footer class="footer">
       <div class="footer__colums">
         <div class="footer__column_content_copyright">
@@ -348,23 +265,24 @@
           </div>
         </div>
         <div class="footer__column_content_info">
-          <div class="column-heading">
+          <div class="footer__column-heading">
             О Практикуме
           </div>
-          <div class="column-links">
-            <a class="column-links_link" href="#">
+          <div class="footer__column-links">
+            <a class="footer__column-link" href="#">
               Главная
             </a>
-            <a class="column-links_link" href="#">
+            <a class="footer__column-link" href="#">
               Концепция
             </a>
-            <a class="column-links_link" href="#">
+            <a class="footer__column-link" href="#">
               Наставники
             </a>
           </div>
         </div>
-        <div class="footer_column_content_social">
-          <div class="column-heading">
+        <div class="footer__column_content_social">
+            <a class="footer__column-link" href="#">
+              <div class="footer__column-heading">
             Соцсети
           </div>
           <div class="social__icons">

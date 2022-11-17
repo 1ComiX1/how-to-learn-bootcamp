@@ -5,6 +5,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 .page {
@@ -16,10 +17,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-}
-
-* p, h1, h2, h3 {
-  margin: 0;
 }
 
 * a {
@@ -38,7 +35,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 
 /* и элемента с модификатором вида ключ-значение */
 
-.header__logo {
+.logo_place_header {
   display: flex;
   padding: 30px 0 0 64px;
   position: absolute;
@@ -66,13 +63,44 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   z-index: 2;
 }
 
-.main-illustration {
+.header__link {
+  text-decoration: none;
+}
+
+.header__main-illustration {
   position: absolute;
   width: 765px;
   height: 608px;
   right: 0;
   bottom: 0;
   z-index: 1;
+}
+
+
+.rotation {
+  overflow: hidden;
+  position: absolute;
+  height: 768px;
+  width: 768px;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* микс отвечающий за вращение элемента */
+.rotating-el {
+  animation: rotate 20s infinite linear;
+  overflow: hidden;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -115,6 +143,9 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   line-height: 34px;
   font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .two-colums__paragraph p:nth-of-type(2) {
@@ -139,7 +170,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   margin: 0 auto;
 }
 
-.section__title {
+.title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -149,7 +180,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   justify-content: center;
 }
 
-.section__subtitle {
+.subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -191,13 +222,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   font-size: 18px;
 }
 
-.table__text_padding_top{
+.table__text:nth-child(1n) {
   padding-top: 20px;
-}
-
-.table__text_padding_bottom {
   padding-bottom: 20px;
 }
+
+
 /* section digits end */
 
 /* section feyman start */
@@ -332,7 +362,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   flex-basis: 711px;
 }
 
-.footer_column_content_social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
@@ -365,13 +395,13 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   padding: 18px 0 18px 0;
 }
 
-.column-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.column-links {
+.footer__column-links {
   display: flex;
   flex-direction: column;
   margin: 20px 0 18px 0;
@@ -379,7 +409,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
   font-size: 18px;
 }
 
-.column-links_link {
+.footer__column-link {
   text-decoration: none;
   color: white;
 }
@@ -387,4 +417,3 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 .footer-icon {
   padding-right: 10px;
 }
-
