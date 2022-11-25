@@ -22,6 +22,7 @@
 
 @import url("../blocks/description/description.css");
 
+/* two columns */
 @import url("../blocks/two-colums/two-columns.css");
 
 @import url("../blocks/two-colums/__brief/two-columns__brief.css");
@@ -31,7 +32,7 @@
 @import url("../blocks/two-colums/__paragraph/two-columns__paragraph.css");
 
 @import url("../blocks/two-colums/__span-accent/two-columns__span-accent.css");
-/* ?????? two columns */
+/* two columns */
 /* description */
 
 /* techniques */
@@ -83,7 +84,6 @@
 /* digits */
 
 @import url("../blocks/digits/digits.css");
-
 /* table */
 @import url("../blocks/table/table.css");
 
@@ -110,7 +110,6 @@
 @import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");
 
 @import url("../blocks/table/__heading/_theme/table__heading_theme_dark.css");
-
 /* table */
 /* digits */
 
