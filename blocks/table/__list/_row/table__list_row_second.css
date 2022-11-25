@@ -1,0 +1,6 @@
+.table__list_row_second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 0 0 0;
+}

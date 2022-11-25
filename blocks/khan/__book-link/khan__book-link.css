@@ -1,0 +1,15 @@
+.khan__book-link {
+  display: flex;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-left: 48px;
+  text-decoration: none;
+  align-self: flex-start;
+  color:#2f80ed;
+  transition: 0.5s;
+}
+
+.book-link:hover {
+  opacity: 0.5;
+}

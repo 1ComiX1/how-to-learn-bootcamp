@@ -1,0 +1,4 @@
+.rotating-el {
+  animation: rotate 20s infinite linear;
+  overflow: hidden;
+}
