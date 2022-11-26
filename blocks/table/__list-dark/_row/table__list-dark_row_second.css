@@ -1,7 +1,0 @@
-.table__list-dark_row_second {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 80px 0 0 0;
-  z-index: 1;
-}

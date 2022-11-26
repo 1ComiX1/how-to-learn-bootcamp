@@ -89,10 +89,6 @@
 
 @import url("../blocks/table/__list/table__list.css");
 
-@import url("../blocks/table/__list/_row/table__list_row_first.css");
-
-@import url("../blocks/table/__list/_row/table__list_row_second.css");
-
 @import url("../blocks/table/__list-dark/_row/table__list-dark_row_first.css");
 
 @import url("../blocks/table/__list-dark/_row/table__list-dark_row_second.css");
