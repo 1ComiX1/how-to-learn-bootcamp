@@ -4,6 +4,6 @@
 }
 
 .table__text:nth-child(1n) {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

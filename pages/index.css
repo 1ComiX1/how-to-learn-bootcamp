@@ -100,6 +100,8 @@
 
 @import url("../blocks/table/__text/table__text.css");
 
+@import url("../blocks/table/__text/_theme/table__text_theme_dark.css");
+
 @import url("../blocks/table/_theme/table_theme_dark.css");
 
 @import url("../blocks/table/__cell/_theme/table__cell_theme_dark.css");

@@ -4,3 +4,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+.table__text_theme_dark:nth-child(1n) {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
