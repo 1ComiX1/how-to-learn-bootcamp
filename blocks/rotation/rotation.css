@@ -1,12 +1,6 @@
 .rotation {
-  display: flex;
+  animation: rotate 20s infinite linear;
   overflow: hidden;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  z-index: 0;
 }
 
 @keyframes rotate {

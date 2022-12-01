@@ -3,4 +3,6 @@
   background-color: #1f1f1f;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
+  overflow: hidden;
 }
