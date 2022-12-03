@@ -25,15 +25,15 @@
 @import url("../blocks/description/description.css");
 
 /* two columns */
-@import url("../blocks/two-colums/two-columns.css");
+@import url("../blocks/two-columns/two-columns.css");
 
-@import url("../blocks/two-colums/__brief/two-columns__brief.css");
+@import url("../blocks/two-columns/__brief/two-columns__brief.css");
 
-@import url("../blocks/two-colums/__main-text/two-columns__main-text.css");
+@import url("../blocks/two-columns/__main-text/two-columns__main-text.css");
 
-@import url("../blocks/two-colums/__paragraph/two-columns__paragraph.css");
+@import url("../blocks/two-columns/__paragraph/two-columns__paragraph.css");
 
-@import url("../blocks/two-colums/__span-accent/two-columns__span-accent.css");
+@import url("../blocks/two-columns/__span-accent/two-columns__span-accent.css");
 /* two columns */
 /* description */
 
@@ -127,7 +127,7 @@
 
 @import url("../blocks/khan/__book-container/khan__book-container.css");
 
-@import url("../blocks/khan/__book-pic/khan_book-pic.css");
+@import url("../blocks/khan/__book-pic/khan__book-pic.css");
 
 @import url("../blocks/khan/__buy-link/khan__buy-link.css");
 /* khan */
